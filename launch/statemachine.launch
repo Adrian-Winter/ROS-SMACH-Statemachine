@@ -1,0 +1,11 @@
+<!--rostopic pub /SM std_msgs/String "data: 'Coin'"-->
+<!-- rostopic echo /ppa-->
+
+<launch>
+	
+	<node pkg="statemachine" type="statemachine.py" name="statemachine" output="screen" />
+	<!--<node pkg="statemachine" type="platform_server.py" name="platform_server" output="screen" />-->
+	<!--<node pkg="statemachine" type="arm_server.py" name="arm_server" output="screen" />-->
+	<node pkg="lager_management" type="Lager_Management.py" name="Lager_Management" output="screen" />
+	
+</launch>
