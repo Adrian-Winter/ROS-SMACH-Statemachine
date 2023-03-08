@@ -5,7 +5,8 @@ SMACH is a Python library for creating and managing state machines in the Robot 
 ### Why did I upload this project? 
 I participated in a university project which goal it was to have a robot to drive autonomously to a warehouse, then receive items from a loader robot and drive back to the commissioning station. My job was to orchestrate the whole process and enable the communication between the different robots and find solutions with the other teams that implemented the functions for the robots. My teammate and I decided quite early that we would love to use SMACH to work with ActionStates.  It was our first time working with ROS and SMACH, and the documentation on the official http://wiki.ros.org/smach was sometimes hard to follow. That is why I uploaded this project, in hope it will help others in understating the mechanisms and syntax of SMACH faster that we did.😄  
 
-You can go ahead and directly dive into the coode, or have a look at our german documentation for this project: 
+You can go ahead and directly dive into the code: https://github.com/Adrian-Winter/ROS-SMACH-Statemachine/tree/main/scripts
+or have a look at our german documentation for this project: 
 
 
 **Global State Machine Doku**
